@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "declaration": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "sourceMap": false,
+        "moduleResolution": "node",
+        "types": ["node", "js-yaml", "jest"],
+        "outDir": "dist"
+    },
+    "files": [
+        "src/simple-variants.ts"
+    ]
+}

@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+- 'node'
+after_success: 'cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js'
+deploy:
+  provider: npm
+  email: clifton@kaznocha.com
+  api_key:
+    secure: YHnQTjcYHIr6QgRrxhNrFiqqunsNsBPJ6Qx1Q+IC4C2PJTCPUQn/5fAoSWLmX0TOk5cwKKUIC+E2xp0VAMUjrchSNEAbUbZTa8E4/iJzTUyNWEuh7c0svuVVXloIVY9VzjORa1s6vXRUSgXI34nTxZcRuaNorJ7l+8/uzIbo0BJNAMiW2DuhpF7XuOolcfGUr7VlQAtWvxv2EGkLxLLDNXi5siqIPDP+47EJmpSp/xRDeU3R+iwx1MV7xn/l3DyYeyeN0vs2fFTERppRoJ7My+NF0o7r6qrDmU6CUyIsskrrU5gGyMsLxgtabipMAd9WivsNRjSU+F4dyp8iTbCkaT73jKDtEeGCLjKYwqGnp82/lkrEvDRksGtxRZpra2VaPyR+NRitrsQasGL8FY1woHKnhHYh6j17Y4ZuKt42s5Xfk5EgMFAdcnyXYwMdGm9rD+5T03XFEjJdjWSulDcwiEVD/Ps4Xy135u1CjmrgNfJ3sAuyGwuXCuUpIMjCFNc3ZbtVnPhK9IGA+0JG6G4iyhLlxaVUAR77ypYmpdHeWV8U7zUv8XXm1ievjkAHJEdTTkqBLpCgk/Y/b/gluv3LzF/nhypJw+5pKVWKSUJvDn7TdFWTaiQhLaxmG0auJ2RCnesJAKZz1Mxmbqdy6Fr49ZaAPL5vLA9mwNhCVARFP44=
+  on:
+    tags: true
+    repo: ckaznocha/simple-variants
