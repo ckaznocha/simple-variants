@@ -2,7 +2,7 @@
     "name": "simple-variants",
     "version": "0.1.0",
     "description": "Simple application variants",
-    "main": "dist/variants.js",
+    "main": "dist/simple-variants.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/ckaznocha/simple-variants"
