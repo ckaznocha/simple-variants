@@ -60,6 +60,25 @@ your variants file:
 ```js
 const variants = new simpleVariants(process.env.variant,'/path/to/file.yml')
 ```
+
+## CLI
+
+If you don't want to ship all your variant information, use the included
+executable to pre-render the variant you'll be targeting.
+
+```sh
+Usage: simple-variants [options]
+
+Options:
+
+  -h, --help                output usage information
+  -V, --version             output the version number
+  -v, --variant [name]      the name of the variant to write [default]
+  -i, --input [path]        the path to your input file [./variants]
+  -o, --output [path]       the path to your output file [./.variants]
+  -f, --format [json|yaml]  the format of the output [json]
+```
+
 ## Contributing
 
 See the `CONTRIBUTING` file.

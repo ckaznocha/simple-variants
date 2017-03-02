@@ -10,6 +10,7 @@
     "bugs": {
         "url": "https://github.com/ckaznocha/simple-variants/issues"
     },
+    "bin": "dist/exe/simple-variants.js",
     "keywords": [
         "variants",
         "build",
@@ -31,10 +32,12 @@
         "definition": "index.d.ts"
     },
     "dependencies": {
+        "@types/commander": "^2.3.31",
         "@types/jest": "^18.1.1",
         "@types/js-yaml": "^3.5.29",
         "@types/node": "^7.0.5",
         "autodts": "^0.0.6",
+        "commander": "^2.9.0",
         "js-yaml": "^3.8.1"
     },
     "devDependencies": {

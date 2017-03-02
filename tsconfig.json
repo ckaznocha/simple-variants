@@ -8,10 +8,11 @@
         "preserveConstEnums": true,
         "sourceMap": false,
         "moduleResolution": "node",
-        "types": ["node", "js-yaml", "jest"],
+        "types": ["node", "js-yaml", "jest", "commander"],
         "outDir": "dist"
     },
     "files": [
-        "src/simple-variants.ts"
+        "src/simple-variants.ts",
+        "src/exe/simple-variants.ts"
     ]
 }
