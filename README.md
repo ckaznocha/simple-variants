@@ -1,7 +1,8 @@
 # simple-variants
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/ckaznocha/simple-variants.svg)](https://greenkeeper.io/)
 [![NPM version](https://badge.fury.io/js/simple-variants.svg)](https://npmjs.org/package/simple-variants) [![Build Status](https://travis-ci.org/ckaznocha/simple-variants.svg?branch=master)](https://travis-ci.org/ckaznocha/simple-variants)
+[![Greenkeeper badge](https://badges.greenkeeper.io/ckaznocha/simple-variants.svg)](https://greenkeeper.io/)
+[![Dependency Status](https://david-dm.org/ckaznocha/simple-variants.svg)](https://david-dm.org/ckaznocha/simple-variants)
 [![Coverage Status](https://coveralls.io/repos/github/ckaznocha/simple-variants/badge.svg?branch=master)](https://coveralls.io/github/ckaznocha/simple-variants?branch=master)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://ckaznocha.mit-license.org)
 
