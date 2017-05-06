@@ -1,6 +1,6 @@
 {
     "name": "simple-variants",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Simple application variants",
     "main": "dist/simple-variants.js",
     "repository": {
