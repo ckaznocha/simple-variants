@@ -48,7 +48,7 @@
         "coveralls": "^2.11.16",
         "eslint": "^3.16.1",
         "jest": "^20.0.0",
-        "ts-jest": "^19.0.5",
+        "ts-jest": "^20.0.2",
         "typescript": "^2.2.1",
         "typescript-eslint-parser": "^2.0.0"
     },
