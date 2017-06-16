@@ -33,7 +33,7 @@
     },
     "dependencies": {
         "@types/commander": "^2.3.31",
-        "@types/jest": "^19.2.2",
+        "@types/jest": "^20.0.0",
         "@types/js-yaml": "^3.5.29",
         "@types/node": "^7.0.5",
         "autodts": "^0.0.6",
