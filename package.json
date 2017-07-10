@@ -50,7 +50,7 @@
         "jest": "^20.0.0",
         "ts-jest": "^20.0.0",
         "typescript": "^2.2.1",
-        "typescript-eslint-parser": "^3.0.0"
+        "typescript-eslint-parser": "^4.0.0"
     },
     "jest": {
         "transform": {
