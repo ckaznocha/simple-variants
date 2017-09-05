@@ -40,7 +40,7 @@
         "coveralls": "^2.13.1",
         "eslint": "^4.1.0",
         "jest": "^21.0.0",
-        "ts-jest": "^20.0.0",
+        "ts-jest": "^21.0.0",
         "typescript": "^2.4.2",
         "typescript-eslint-parser": "^7.0.0"
     },
