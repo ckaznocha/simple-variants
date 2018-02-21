@@ -42,7 +42,7 @@
         "jest": "^22.0.0",
         "ts-jest": "^22.0.0",
         "typescript": "^2.4.2",
-        "typescript-eslint-parser": "^13.0.0"
+        "typescript-eslint-parser": "^14.0.0"
     },
     "jest": {
         "transform": {
