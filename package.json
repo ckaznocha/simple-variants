@@ -45,6 +45,8 @@
         "typescript-eslint-parser": "^17.0.0"
     },
     "jest": {
+        "verbose": true,
+        "testURL": "http://localhost/",
         "transform": {
             ".ts": "ts-jest/preprocessor"
         },
