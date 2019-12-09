@@ -28,7 +28,7 @@
     "dependencies": {
         "@types/commander": "^2.9.1",
         "@types/js-yaml": "^3.11.4",
-        "@types/node": "^10.12.18",
+        "@types/node": "^12.12.16",
         "commander": "^2.19.0",
         "js-yaml": "^3.9.1"
     },
